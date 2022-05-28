@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
             //For deleting duplicate data or a data from table
             myDatabase.execSQL("DELETE FROM newUsers WHERE id=4");
-            //LIMIT 1 is used to limit the query for only 1 result i.e. Only 1 data will be deleted from the table
 
             //For updating a value from the result suppose change the age to 24 whose name contains 'K' in his name
             myDatabase.execSQL("UPDATE newUsers SET age = 24 WHERE name LIKE '%k%'");
