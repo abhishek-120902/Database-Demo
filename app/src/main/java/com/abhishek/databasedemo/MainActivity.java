@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 //Show the results
                 Log.i("Name", c.getString(nameIndex));
                 Log.i("Age", Integer.toString(c.getInt(ageIndex)));
-                Log.i("Age", Integer.toString(c.getInt(idIndex)));
+                Log.i("Id", Integer.toString(c.getInt(idIndex)));
 
                 //To move to the next result
                 c.moveToNext();
